@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="header-area">
+        <div class="header">
+            <div class="logo"><img src="/img/Frame 168.png" alt="logo"></div>
+            <ul class="nav-bar">
+                <li>
+                    <a href="#">
+                        <p class="menu">Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p class="menu">Shop</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p class="menu">About</p>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <p class="menu">Contact</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="search-bar">
+                <ul class="fa-bar">
+                    <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Hero section -->
+    <div class="hero-area">
+        <div class="hero">
+            <div class="hero-content">
+                <img src="./img/Meubel House_Logos-05.png" alt="" class="house-logo">
+                <p class="title">Checkout</p>
+                <nav class="menu">
+                    <ol class="home">
+                        <li class="home1">
+                            <a href="#">
+                                <p class="home2">Home</p>
+                            </a>
+                            <span class="home3">
+                                    <img src="./img/dashicons_arrow-down-alt2.png" alt="" class="home4">
+    
+                        </span>
+                        </li>
+                        <li class="home1">
+                            <span>
+                            <p class="home5">Checkout</p>
+                        </span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Billing section -->
+    <div class="billing-area">
+        <div class="billing">
+            <div class="billing-box">
+                <div class="billing-box1">
+                    <div class="billing-part1">
+                        <h1 class="bill-title">
+                            Billing details</h1>
+                        <div class="name-box">
+                            <div class="name">
+                                <p class="bill-text1">
+                                    First Name</p>
+                                <label class="name-text">
+                                    <input name="First_name" type="text">
+                                </label>
+                            </div>
+                            <div class="name">
+                                <p class="bill-text1">
+                                    Last Name</p>
+                                <label class="name-text">
+                                    <input name="Last_name" type="text">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="company-name">
+                            <p class="bill-text1">
+                                Company Name (Optional)</p>
+                            <label class="name-text">
+                                    <input name="Company_name" type="text">
+                            </label>
+                        </div>
+                        <div class="billing-part2">
+                            <div class="company-name">
+                                <p class="bill-text1">
+                                    Country / Region</p>
+                                <select class="group-selection" name="country">
+                                        <option value="option1">
+                                             Option1</option>
+                                <option value="option2">
+                                Option2</option>
+                                <option value="option3">
+                                Option3</option>
+                                </select>
+                            </div>
+                            <div class="company-name">
+                                <p class="bill-text1">
+                                    Street address</p>
+                                <label class="name-text">
+                                    <input name="street_address" type="text">
+                                </label>
+                            </div>
+                            <div class="company-name">
+                                <p class="bill-text1">
+                                    Town / City</p>
+                                <label class="name-text">
+                                    <input name="town" type="text">
+                                </label>
+                            </div>
+                            <div class="company-name">
+                                <p class="bill-text1">
+                                    Province</p>
+                                <select class="group-selection" name="Group 1">
+                                <option value="option1">
+                                Option1</option>
+                                <option value="option2">
+                                Option2</option>
+                                <option value="option3">
+                                Option3</option>
+                                </select>
+                            </div>
+                            <div class="company-name">
+                                <p class="bill-text1">
+                                    ZIP code</p>
+                                <label class="name-text">
+                                    <input name="zip_code" type="text">
+                                </label>
+                            </div>
+                            <div class="company_name">
+                                <p class="bill-text1">
+                                    Phone</p>
+                                <label class="name-text">
+                                    <input name="phone" type="text">
+                                </label>
+                            </div>
+                            <div class="company-name">
+                                <p class="bill-text1">
+                                    Email address</p>
+                                <label class="name-text">
+                                    <input name="Email_address" type="text">
+                                </label>
+                            </div>
+                            <label class="group-selection">
+                                <input name="information" placeholder="Additional information" type="text">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="billing-body2">
+                    <div class="billing-part2">
+                        <div class="product-subtotal">
+                            <div class="product-subtotal-details">
+                                <p class="bill-text2">
+                                    Product</p>
+                                <p class="bill-text2">
+                                    Subtotal</p>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-det">
+                                    <p class="bill-text3">
+                                        Asgaard sofa</p>
+                                    <p class="bill-text4">
+                                        X</p>
+                                    <p class="bill-text4">
+                                        1</p>
+                                </div>
+                                <p class="bill-text5">
+                                    Rs. 250,000.00</p>
+                            </div>
+                        </div>
+                        <div class="subtotal-total">
+                            <div class="subtotal1">
+                                <p class="bill-text6">
+                                    Subtotal</p>
+                                <p class="bill-text5">
+                                    Rs. 250,000.00</p>
+                            </div>
+                            <div class="total1">
+                                <p class="bill-text6">
+                                    Total</p>
+                                <h2 class="bill-text7">
+                                    Rs. 250,000.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-10">
+                    </div>
+                    <div class="bank-content">
+                        <div class="bank-transfer">
+                            <div class="ellipse-1">
+                            </div>
+                            <p class="bill-text6">
+                                Direct Bank Transfer</p>
+                        </div>
+                        <p class="bill-text8">
+                            Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                    </div>
+                    <div class="bank-cash">
+                        <label class="direct-bank">
+        <input type="radio" class="bank-radio" value="directbanktransfer" name="group822">
+        <span>
+        Direct Bank Transfer</span>
+        </label>
+                        <label class="direct-bank">
+        <input type="radio" class="bank-radio" value="cashondelivery" name="group822">
+        <span>
+        Cash On Delivery</span>
+        </label>
+                    </div>
+                    <p class="bill-text8">
+                        <span>
+        Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our&nbsp;</span>
+                        <span class="bill-text9">
+        privacy policy.</span>
+                    </p>
+                    <button class="btn41">
+        Place order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Benefit section -->
+    <div class="benefit-area">
+        <div class="benefit">
+            <div class="feature">
+                <div class="feature1">
+                    <img src="./img/trophy 1.png" alt="" class="trophy">
+                    <div class="feature-text">
+                        <h2 class="feature-title">
+                            High Quality
+                        </h2>
+                        <p class="feature-para">
+                            crafted from top materials
+                        </p>
+                    </div>
+                </div>
+                <div class="feature1">
+                    <img src="./img/guarantee.png" alt="" class="trophy">
+                    <div class="feature-text">
+                        <h2 class="feature-title">
+                            Warranty Protection
+                        </h2>
+                        <p class="feature-para">
+                            Over 2 years
+                        </p>
+                    </div>
+                </div>
+                <div class="feature1">
+                    <img src="./img/shipping.png" alt="" class="trophy">
+                    <div class="feature-text">
+                        <h2 class="feature-title">
+                            Free Shipping
+                        </h2>
+                        <p class="feature-para">
+                            order over 150$
+                        </p>
+                    </div>
+                </div>
+                <div class="feature1">
+                    <img src="./img/customer-support.png" alt="" class="trophy">
+                    <div class="feature-text">
+                        <h2 class="feature-title">
+                            24/7 Support
+                        </h2>
+                        <p class="feature-para">
+                            Dedicated support
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section -->
+    <div class="footer-area">
+        <div class="footer">
+            <div class="footer1">
+                <div class="footer-content">
+                    <div class="footer-box1">
+                        <img src="./img/Funiro..png" alt="footer-logo" class="footer-logo">
+                        <p class="footer-para">400 University Drive Suite 200 Coral Gables,<br> FL 33134 USA</p>
+                    </div>
+                    <div class="footer-box2">
+                        <p class="link">Links</p>
+                        <ul class="f-box1">
+                            <li>
+                                <a href="">
+                                    <p class="link-para">Home</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="link-para">Shop</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="link-para">About</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="link-para">Contact</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box3">
+                        <div class="footer-box31">
+                            <p class="link">Help</p>
+                            <ul class="f-box1">
+                                <li>
+                                    <a href="">
+                                        <p class="link-para">Payment Options</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="link-para">Returns</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="link-para">Privacy Policies</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-box32">
+                            <p class="link">Newsletter</p>
+                            <div class="search">
+                                <label class="search1">
+                            <input type="text" placeholder="Enter Your Email Address" >
+                        </label>
+                                <div class="subscribe">
+                                    <a href="">
+                                        <div class="subscribe-para">
+                                            <p class="subscribe-para1">SUBSCRIBE</p>
+                                        </div>
+                                        <div class="line"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line1"></div>
+
+                <p class="reserved">2023 furino. All rights reverved
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
